@@ -2,6 +2,7 @@
 	"name": "@jozefini/tw-utilities",
 	"version": "0.0.1",
 	"description": "A Tailwind CSS plugin for that adds missing utility classes",
+	"author": "Jozefin B. <jozi.me>",
 	"main": "src/index.js",
 	"types": "src/index.d.ts",
 	"files": [
