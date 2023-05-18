@@ -1,6 +1,6 @@
 {
 	"name": "@jozefini/tw-utilities",
-	"version": "0.0.3",
+	"version": "0.0.4",
 	"description": "A Tailwind CSS plugin for that adds missing utility classes",
 	"author": "Jozefin B. <jozi.me>",
 	"keywords": [
@@ -20,7 +20,7 @@
 		"access": "public"
 	},
 	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1",
+		"test": "node src/test.js",
 		"format": "prettier --plugin-search-dir . --write ."
 	},
 	"peerDependencies": {

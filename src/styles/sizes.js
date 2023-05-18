@@ -1,6 +1,6 @@
 const { inRem, convertSizes } = require('../utils')
 
-modile.exports = convertSizes({
+module.exports = convertSizes({
 	'4\\.5': inRem(18),
 	'5\\.5': inRem(22),
 	'6\\.5': inRem(26),
