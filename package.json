@@ -1,5 +1,5 @@
 {
-	"name": "@jozefini/tw-utilities",
+	"name": "@jozefini/tailwindcss",
 	"version": "0.0.5",
 	"description": "A Tailwind CSS plugin for that adds missing utility classes",
 	"author": "Jozefin B. <jozi.me>",
