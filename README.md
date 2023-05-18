@@ -1,4 +1,4 @@
-## Tailwind Css - Utilities
+## Tailwind CSS - Utilities
 
 A plugin that provides a set of `utility` classes for `Tailwind Css` that you can use with auto-completion in your IDE.
 
