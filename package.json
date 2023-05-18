@@ -1,7 +1,7 @@
 {
 	"name": "@jozefini/tailwindcss",
-	"version": "0.0.5",
-	"description": "A Tailwind CSS plugin for that adds missing utility classes",
+	"version": "0.0.6",
+	"description": "A plugin that extends TailwindCSS utilities",
 	"author": "Jozefin B. <jozi.me>",
 	"keywords": [
 		"tailwindcss",
