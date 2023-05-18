@@ -3,6 +3,11 @@
 	"version": "0.0.1",
 	"description": "A Tailwind CSS plugin for that adds missing utility classes",
 	"author": "Jozefin B. <jozi.me>",
+	"keywords": [
+		"tailwind",
+		"tailwindcss",
+		"tailwind-plugin"
+	],
 	"main": "src/index.js",
 	"types": "src/index.d.ts",
 	"files": [
