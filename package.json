@@ -15,7 +15,7 @@
 		"src/styles/*.js",
 		"dist/"
 	],
-	"repository": "https://github.com/jozefini/tw-utilities-plugin",
+	"repository": "https://github.com/jozefini/tailwindcss-plugin",
 	"license": "MIT",
 	"publishConfig": {
 		"access": "public"
