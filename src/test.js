@@ -2,6 +2,7 @@ const direction = require('./styles/direction')
 const display = require('./styles/display')
 const flexbox = require('./styles/flexbox')
 const sizes = require('./styles/sizes')
+const position = require('./styles/position')
 const misc = require('./styles/misc')
 
 const logger = (styles) => {
@@ -47,5 +48,6 @@ logger({
 	direction,
 	flexbox,
 	sizes,
+	position,
 	misc
 })

@@ -6,6 +6,7 @@ const direction = require('./styles/direction')
 const display = require('./styles/display')
 const flexbox = require('./styles/flexbox')
 const sizes = require('./styles/sizes')
+const position = require('./styles/position')
 const misc = require('./styles/misc')
 
 // Export.
@@ -15,6 +16,7 @@ module.exports = plugin(({ addUtilities }) => {
 		...display,
 		...flexbox,
 		...sizes,
+		...position,
 		...misc
 	})
 })
