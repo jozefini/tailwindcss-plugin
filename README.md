@@ -5,8 +5,8 @@ A plugin that provides a set of `utility` classes for `Tailwind Css` that you ca
 ### Shorter display classes
 
 ```
-.in-flex { display: inline-flex }
-.in-grid { display: inline-grid }
+.in-flex  { display: inline-flex }
+.in-grid  { display: inline-grid }
 .in-block { display: inline-block }
 ```
 
@@ -33,7 +33,7 @@ A plugin that provides a set of `utility` classes for `Tailwind Css` that you ca
   justify-content: center;
   align-items: flex-end;
 }
-.wrap { flex-wrap: wrap }
+.wrap   { flex-wrap: wrap }
 .nowrap { flex-wrap: nowrap }
 ```
 
@@ -71,9 +71,9 @@ A plugin that provides a set of `utility` classes for `Tailwind Css` that you ca
 ### Misc
 
 ```
-.rounded-in { border-radius: inherit }
-.no-events { pointer-events: none }
-.all-events { pointer-events: all }
+.rounded-in  { border-radius: inherit }
+.no-events   { pointer-events: none }
+.all-events  { pointer-events: all }
 .auto-events { pointer-events: auto }
 ```
 
@@ -86,9 +86,9 @@ A plugin that provides a set of `utility` classes for `Tailwind Css` that you ca
 .{class}-7.5  => 1.875rem // 30px
 .{class}-8.5  => 2.125rem // 34px
 .{class}-9.5  => 2.375rem // 38px
-.{class}-11   => 2.75rem // 44px
-.{class}-13   => 3.25rem // 52px
-.{class}-14   => 3.5rem // 56px
-.{class}-15   => 3.75rem // 60px
-.{class}-18   => 4.5rem // 72px
+.{class}-11   => 2.75rem  // 44px
+.{class}-13   => 3.25rem  // 52px
+.{class}-14   => 3.5rem   // 56px
+.{class}-15   => 3.75rem  // 60px
+.{class}-18   => 4.5rem   // 72px
 ```
