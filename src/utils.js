@@ -8,10 +8,19 @@ const inRem = (px) => `${round(px / 16)}rem`
 
 const inEm = (px, base) => `${round(px / base)}em`
 
-const convertSizes = (sizes, value) =>
+const convertSizes = (sizes) =>
 	Object.entries(sizes).reduce((styles, [key, value]) => {
 		styles[`.w-${key}`] = { width: value }
 		styles[`.h-${key}`] = { height: value }
+		return styles
+	}, {})
+
+const convertSquareSizes = (sizes) =>
+	Object.entries(sizes).reduce((styles, [key, value]) => {
+		styles[`.sq-${key}`] = {
+			width: value,
+			height: value
+		}
 		return styles
 	}, {})
 
@@ -19,5 +28,6 @@ module.exports = {
 	inRem,
 	inEm,
 	round,
-	convertSizes
+	convertSizes,
+	convertSquareSizes
 }
