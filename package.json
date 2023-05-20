@@ -1,6 +1,6 @@
 {
 	"name": "@jozefini/tailwindcss",
-	"version": "0.0.92",
+	"version": "0.0.93",
 	"description": "A plugin that extends TailwindCSS utilities",
 	"author": "Jozefin B. <jozi.me>",
 	"keywords": [
