@@ -44,27 +44,28 @@ A plugin that provides a set of `utility` classes for `Tailwind Css` that you ca
 .dir-rtl { direction: rtl }
 ```
 
-### New sizings
+### New heights, widths and square sizes (2D)
 
 ```
-.w-4.5 { width: 1.125rem }
-.w-5.5 { width: 1.375rem }
-.w-6.5 { width: 1.625rem }
-.w-7.5 { width: 1.875rem }
-.w-8.5 { width: 2.125rem }
-.w-9.5 { width: 2.375rem }
-.w-13 { width: 3.25rem }
-.w-15 { width: 3.75rem }
-.w-18 { width: 4.5rem }
-.h-4.5 { height: 1.125rem }
-.h-5.5 { height: 1.375rem }
-.h-6.5 { height: 1.625rem }
-.h-7.5 { height: 1.875rem }
-.h-8.5 { height: 2.125rem }
-.h-9.5 { height: 2.375rem }
-.h-13 { height: 3.25rem }
-.h-15 { height: 3.75rem }
-.h-18 { height: 4.5rem }
+.h-{newSizeModifier} {
+  height: {size};
+}
+.w-{newSizeModifier} {
+  width: {size};
+}
+.sq-{sizeModifier} {
+  width: {size};
+  height: {size};
+}
+```
+
+### New Square Sizes (Width + Height)
+
+```
+.sq-{sizeModifier} {
+  width: {size};
+  height: {size};
+}
 ```
 
 ### Misc
@@ -74,4 +75,20 @@ A plugin that provides a set of `utility` classes for `Tailwind Css` that you ca
 .no-events { pointer-events: none }
 .all-events { pointer-events: all }
 .auto-events { pointer-events: auto }
+```
+
+### New size added alongside the default ones
+
+```
+.{class}-4.5  => 1.125rem // 18px
+.{class}-5.5  => 1.375rem // 22px
+.{class}-6.5  => 1.625rem // 26px
+.{class}-7.5  => 1.875rem // 30px
+.{class}-8.5  => 2.125rem // 34px
+.{class}-9.5  => 2.375rem // 38px
+.{class}-11   => 2.75rem // 44px
+.{class}-13   => 3.25rem // 52px
+.{class}-14   => 3.5rem // 56px
+.{class}-15   => 3.75rem // 60px
+.{class}-18   => 4.5rem // 72px
 ```
