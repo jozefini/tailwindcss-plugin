@@ -9,8 +9,19 @@ const sizes = require('./styles/sizes')
 const position = require('./styles/position')
 const misc = require('./styles/misc')
 
+// Dynamic utilities.
+const dynamic = {
+	lh: (value) => ({
+		lineHeight: value
+	}),
+	sq: (value) => ({
+		width: value,
+		height: value
+	})
+}
+
 // Export.
-module.exports = plugin(({ addUtilities }) => {
+module.exports = plugin(({ addUtilities, matchUtilities }) => {
 	addUtilities({
 		...direction,
 		...display,
@@ -19,4 +30,5 @@ module.exports = plugin(({ addUtilities }) => {
 		...position,
 		...misc
 	})
+	matchUtilities(dynamic)
 })
