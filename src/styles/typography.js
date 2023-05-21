@@ -25,5 +25,14 @@ module.exports = {
 	},
 	'.fw-900': {
 		fontWeight: 900
+	},
+	'.lh-1': {
+		lineHeight: 1
+	},
+	'.lh-1\\.25': {
+		lineHeight: 1.25
+	},
+	'.lh-1\\.5': {
+		lineHeight: 1.5
 	}
 }
