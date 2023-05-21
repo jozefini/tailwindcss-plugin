@@ -7,6 +7,7 @@ const display = require('./styles/display')
 const flexbox = require('./styles/flexbox')
 const sizes = require('./styles/sizes')
 const position = require('./styles/position')
+const typography = require('./styles/typography')
 const misc = require('./styles/misc')
 
 // Dynamic utilities.
@@ -28,6 +29,7 @@ module.exports = plugin(({ addUtilities, matchUtilities }) => {
 		...flexbox,
 		...sizes,
 		...position,
+		...typography,
 		...misc
 	})
 	matchUtilities(dynamic)
